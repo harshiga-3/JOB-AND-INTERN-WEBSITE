@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevate Careers</title>
+    <link rel="stylesheet" href="styles1.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Header with Bootstrap navbar -->
+    <nav class="navbar navbar-expand-lg bg-light mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="#">Elevate Careers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jobs">Jobs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#companies">Companies</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Search Section -->
+    <div class="container mb-5">
+        <div class="search-box p-4 bg-white rounded">
+            <h2 class="mb-4">Find Your Dream Job</h2>
+            <div class="row g-2">
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Job title">
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control" placeholder="Location">
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-primary w-100">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Top Companies Section -->
+    <div class="container mb-5" id="companies">
+        <h2 class="mb-4">Top Companies</h2>
+        <div class="row g-4">
+            <!-- Company 1 -->
+            <div class="col-6 col-md-3">
+                <a href="https://www.google.com/careers" target="_blank" class="text-decoration-none">
+                    <div class="company-card bg-white">
+                        <img src="image/google.jpeg" alt="Google" width="80" class="mb-3">
+                        <h5>Google</h5>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Company 2 -->
+            <div class="col-6 col-md-3">
+                <a href="https://careers.microsoft.com" target="_blank" class="text-decoration-none">
+                    <div class="company-card bg-white">
+                        <img src="image/m1.jpg" alt="Microsoft" width="80" class="mb-3">
+                        <h5>Microsoft</h5>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Company 3 -->
+            <div class="col-6 col-md-3">
+                <a href="https://www.amazon.jobs" target="_blank" class="text-decoration-none">
+                    <div class="company-card bg-white">
+                        <img src="image/am1.png" alt="Amazon" width="120" class="mb-3">
+                        <h5>Amazon</h5>
+                    </div>
+                </a>
+            </div>
+            
+            <!-- Company 4 -->
+            <div class="col-6 col-md-3">
+                <a href="https://www.apple.com/careers" target="_blank" class="text-decoration-none">
+                    <div class="company-card bg-white">
+                        <img src="image/a1.png" alt="Apple" width="80" class="mb-3">
+                        <h5>Apple</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Job Listings -->
+    <div class="container" id="jobs">
+        <h2 class="mb-4">Featured Jobs</h2>
+        <div class="row g-4">
+            <!-- Job 1 -->
+            <div class="col-md-6">
+                <div class="job-card p-4 bg-white h-100">
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="job-type bg-success text-white">Full-time</span>
+                        <small class="text-muted">2 days ago</small>
+                    </div>
+                    <h3 class="mb-2">Software Engineer</h3>
+                    <a href="https://www.google.com/careers" target="_blank" class="text-primary mb-2 d-block">Google</a>
+                    <p class="text-muted mb-3">Mountain View, CA</p>
+                    <p class="mb-3">Join our team to build innovative solutions that impact millions of users worldwide.</p>
+                    <a href="https://careers.google.com/jobs/results/134644300316873414/" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+
+            <!-- Job 2 -->
+            <div class="col-md-6">
+                <div class="job-card p-4 bg-white h-100">
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="job-type bg-info text-white">Remote</span>
+                        <small class="text-muted">1 week ago</small>
+                    </div>
+                    <h3 class="mb-2">UX Designer</h3>
+                    <a href="https://careers.microsoft.com" target="_blank" class="text-primary mb-2 d-block">Microsoft</a>
+                    <p class="text-muted mb-3">Remote</p>
+                    <p class="mb-3">Design intuitive user experiences for our suite of productivity applications.</p>
+                    <a href="https://careers.microsoft.com/professionals/us/en/job/1583874/UX-Designer" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+            
+            <!-- Job 3 -->
+            <div class="col-md-6">
+                <div class="job-card p-4 bg-white h-100">
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="job-type bg-warning text-dark">Contract</span>
+                        <small class="text-muted">3 days ago</small>
+                    </div>
+                    <h3 class="mb-2">Cloud Architect</h3>
+                    <a href="https://www.amazon.jobs" target="_blank" class="text-primary mb-2 d-block">Amazon Web Services</a>
+                    <p class="text-muted mb-3">Seattle, WA</p>
+                    <p class="mb-3">Help enterprise clients migrate and optimize their cloud infrastructure.</p>
+                    <a href="https://www.amazon.jobs/en/jobs/2297236/solutions-architect" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+            
+            <!-- Job 4 -->
+            <div class="col-md-6">
+                <div class="job-card p-4 bg-white h-100">
+                    <div class="d-flex justify-content-between mb-3">
+                        <span class="job-type bg-secondary text-white">Internship</span>
+                        <small class="text-muted">New</small>
+                    </div>
+                    <h3 class="mb-2">iOS Developer Intern</h3>
+                    <a href="https://www.apple.com/careers" target="_blank" class="text-primary mb-2 d-block">Apple</a>
+                    <p class="text-muted mb-3">Cupertino, CA</p>
+                    <p class="mb-3">Work with our engineering team to develop new features for iOS applications.</p>
+                    <a href="https://jobs.apple.com/en-us/details/200480063/software-engineering-internship" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
